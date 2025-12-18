@@ -7,7 +7,7 @@ import _button from '@/components/_button';
 
 configureAmplify();
 
-export default function FastSignUpPage() {
+export default function SignUpPage() {
   const testEmail = "testUser@example.com";
   const testPassword = "Password123!";
   const testUsername = "testUser";
