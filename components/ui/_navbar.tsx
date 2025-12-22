@@ -12,7 +12,7 @@ export default function Navbar() {
         <span className="font-bold tracking-tighter text-xl">CRBS</span>
       </Link>
 
-      <div className="space-x-8 text-sm uppercase tracking-widest opacity-60 flex items-center">
+      <div className="space-x-8 text-xs uppercase tracking-widest opacity-60 flex items-center">
         {isLoading ? (
           <div className="p-2">Loading...</div>
         ) : user ? (

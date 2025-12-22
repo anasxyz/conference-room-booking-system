@@ -3,7 +3,9 @@
 import { useAuth } from '@/context/AuthProvider';
 import { ProtectedRoute } from '@/components/auth/ProtectedRoute';
 import { signOut } from 'aws-amplify/auth';
+
 import _navbar from '@/components/ui/_navbar';
+import { useEffect } from 'react';
 
 export default function ProfilePage() {
   const { user, isLoading } = useAuth();
