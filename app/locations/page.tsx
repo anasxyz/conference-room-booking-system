@@ -31,6 +31,13 @@ export default function BrowseLocations() {
   return (
     <div className="max-w-5xl mx-auto py-12 px-6">
       <header className="mb-12">
+        {/* Back Arrow */}
+        <Link
+          href="/"
+          className="text-[10px] uppercase tracking-[0.2em] opacity-40 hover:opacity-100 transition-opacity flex items-center mb-4"
+        >
+          ← Back to home
+        </Link>
         <h1 className="text-3xl font-bold tracking-tighter pb-2">Locations</h1>
         <p className="text-xs uppercase tracking-[0.2em] opacity-50">Select a site to view available rooms</p>
       </header>
